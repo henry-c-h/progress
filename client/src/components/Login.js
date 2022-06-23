@@ -39,6 +39,11 @@ export default function Login() {
             ) : (
               <></>
             )}
+            <div className="flash-message">
+              Please feel free to test with:
+              <p>Email: admin@admin.com</p>
+              <p>Password: admin123</p>
+            </div>
             <div className="form-row">
               <label htmlFor="email">Email</label>
               <input
